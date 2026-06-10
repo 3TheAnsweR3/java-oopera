@@ -80,6 +80,10 @@ public class Theatre {
         Actor newActor = new Actor("Джонни", "Депп", Person.Gender.MALE, 180);
         musicalShow.replaceActor(newActor, actor2);
 
+        System.out.println("Либретто мюзикла: ");
+        System.out.println(musicalShow.getLibrettoText());
+        System.out.println("-".repeat(30));
+
         System.out.println("Либретто оперы: ");
         System.out.println(opera.getLibrettoText());
         System.out.println("-".repeat(30));

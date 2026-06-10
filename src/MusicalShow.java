@@ -22,7 +22,7 @@ public class MusicalShow extends Show {
     public String toString() {
         return "Актеры: " + getListOfActors()
                 + "\nНазавание: " + getTitle()
-                + "\nДлительность: " + getDuration()
+                + "\nДлительность: " + getDuration() + "минут"
                 + "\nРежисер: " + getDirector()
                 + "\nАвтор музыки: " + getMusicAuthor()
                 + "\nЛибретто: " + getLibrettoText();

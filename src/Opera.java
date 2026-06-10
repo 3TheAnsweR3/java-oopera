@@ -23,7 +23,7 @@ public class Opera extends MusicalShow {
     public String toString() {
         return "Актеры: " + getListOfActors()
                 + "\nНазавание: " + getTitle()
-                + "\nДлительность: " + getDuration()
+                + "\nДлительность: " + getDuration() + "минут"
                 + "\nАвтор музыки: " + getMusicAuthor()
                 + "\nЛибретто: " + getLibrettoText()
                 + "\nЧисленность хора: " + getChoirSize() + " человек.";
